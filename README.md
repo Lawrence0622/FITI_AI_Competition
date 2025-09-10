@@ -35,28 +35,43 @@ The report emphasizes the dangers of falls to the elderly and points out the lim
 Key features of the system:
 
 ●  Software Aspects:
+
   ○  Uses a human_detection_model as a pre-trained model for fine-tuning with our own dataset, with file conversion and quantization processing specifically for the VA8801 development board.
+
   ○  Designed an algorithm that integrates with the Line Notify API, reads model output logs, determines message sending, achieving fall detection system functionality.
+
   ○  The model achieves 90.5% accuracy and 76.3% recall rate.
 
 ●  Hardware Aspects:
+
   ○  Uses the VA8801 development board as the computing core, featuring high performance and low power consumption.
+
   ○  The casing is 3D printed using PLA plastic, which is environmentally friendly, recyclable, and easy to design and modify.
 
-●  Practical Applications:
+●  Practical Applications:|
+
   ○  The system can be used independently in private spaces such as bathrooms or bedrooms, with no privacy concerns due to the absence of cloud database storage.
+
   ○  It can also be integrated with traditional surveillance systems to cover larger areas at lower costs, suitable for hospitals or nursing homes.
 
 Future Prospects:
 
 ●  The development team hopes to expand the system's applications to broader fields, such as:
+
 -Crop monitoring
+
 -Water pollution monitoring
+
 -Marine resource monitoring
+
 -Forest logging prevention
 
 ●  Future improvements include:
+
 -Software deployment updates
+
 -More efficient YOLO models
+
 -Hardware upgrades with more durable materials
+
 -Integration of additional functional modules, such as connecting with LLMs for richer language interaction
